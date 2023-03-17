@@ -1,9 +1,12 @@
 {
-  "name": "cdkactions",
+  "name": "@blackbird/cdkactions",
   "description": "Cloud Development Kit for GitHub Actions",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArmaanT/cdkactions.git"
+    "url": "https://github.com/BlackbirdHQ/cdkactions.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "projen": "npx projen",
