@@ -1,9 +1,12 @@
 {
-  "name": "cdkactions-cli",
+  "name": "@blackbird/cdkactions-cli",
   "description": "CDK for GitHub Actions CLI",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArmaanT/cdkactions.git"
+    "url": "https://github.com/BlackbirdHQ/cdkactions.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "bin": {
     "cdkactions": "bin/cdkactions"
